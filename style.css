@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: roboto,droid sans,arial,sans-serif;
+    background: #E9E8E9;
+    margin-top: 45px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 1em;
+    font-weight: normal;
+    box-sizing: border-box;
+}
+
+input[type="search"] {
+    width: 80%;
+    padding: 5px;
+    box-sizing: border-box;
+    color: #333;
+    border:1px solid #eee;
+}
+
+form {
+    text-align: CENTER;
+    margin: 0px;
+       text-align: CENTER;
+    margin: 0px;
+    background: #6B1FC0;
+    padding: 11px 8px 6px;
+}
+
+.app {
+    background: white;
+    margin: 8px 6px;
+    border: 1px solid #ddd;
+}
+
+.image,.info {
+    display: table-cell;
+    vertical-align: top;
+    padding: 6px;
+    color: #999;
+    font-size: 0.9em;
+}
+
+div#result {
+    margin: 0 auto;
+    width: 95%;
+}
+
+.info strong {
+    color: #5000AA;
+    font-weight: bold;
+    margin-bottom: 2px;
+    display: block;
+    font-size: 1.2em;
+}
+
+.info span {
+    color: #000;
+}
+
+.query {
+    width: 95%;
+    margin: 5px auto;
+    padding: 8px 10px;
+    color: WHITE;
+    background: #5000AA;
+    box-sizing: border-box;
+    border: 5px solid #E9E8E9;
+}
+
+.heading {
+    background: #5000AA;
+    text-align: CENTER;
+    margin-bottom: 8px;
+    position: fixed;
+    top: 0;
+    border-bottom: 0;
+    right: 0;
+    left: 0;
+}
+.extra {
+    background: #FFF;
+    margin: -9px 6px 0px;
+    border: 1px solid #ddd;
+}
+
+.extra a {
+    width: 80%;
+    display: inline-block;
+    background: #5000AA;
+    padding: 7px 10px;
+    color: WHITE;
+    text-align: CENTER;
+    text-decoration: none;
+}
+
+span.close {
+    display: inline-block;
+    text-align: CENTER;
+    width: 20%;
+    background: #fafafa;
+    padding: 7px 2px;
+    cursor: pointer;
+}
+input.smt {
+    background: #f9f9f9;
+    padding: 5px 4px;
+    border: 1px solid #eee;
+    width: 18%;
+    cursor: pointer;
+}
+div#offalert {
+    background: #FAE4E4; 
+    display:none;
+}
+
+span#offtxt {
+    width: 80%;
+    display: inline-block;
+    padding: 5px 20px;
+}
