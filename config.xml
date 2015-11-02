@@ -1,6 +1,6 @@
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="in.jokesapp.app" version="1.0.0"  versionCode = "10">
-  <name>JokesApp</name>
-  <description>Latest Jokes</description>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="in.apkbee" version="1.0.0"  versionCode = "1">
+  <name>ApkBee</name>
+  <description>Android Apps Apk.</description>
   <author href="http://avadheshb.com" email="hi@avadheshb.com">Avadhesh</author>
   <content src="index.html"/>
   <preference name="permissions" value="none"/>
@@ -25,7 +25,7 @@
   <gap:plugin name="org.apache.cordova.network-information"/>
   <gap:plugin name="org.apache.cordova.splashscreen"/>
   
-<icon src="icon.png"/>
+<icon src="xhd.png"/>
 <icon src="xhd.png" gap:platform="android" gap:qualifier="ldpi" />
 <icon src="xhd.png" gap:platform="android" gap:qualifier="mdpi" />
 <icon src="xhd.png" gap:platform="android" gap:qualifier="hdpi" />
@@ -35,6 +35,6 @@
 <gap:splash src="splash.png" />
 <gap:platform name="android" />
 	
-<preference name="SplashScreenDelay" value="2000" />
+<preference name="SplashScreenDelay" value="2500" />
   <access origin="*"/>
 </widget>
