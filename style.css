@@ -89,7 +89,7 @@ div#result {
     padding-top: 3px;
     position: fixed;
     top: 0;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid #ddd;
     right: 0;
     left: 0;
     color: #5000AA;
@@ -184,7 +184,7 @@ small {
 }
 a.gob {
     color: #5000AA;
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     bottom:0;
