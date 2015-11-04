@@ -12,6 +12,9 @@ body {
     font-size: 1em;
     font-weight: normal;
     box-sizing: border-box;
+    -webkit-user-select: none;
+-webkit-touch-callout: none; 
+ -webkit-tap-highlight-color: rgba(0,0,0,0);  
 }
 
 input[type="search"] {
@@ -25,16 +28,20 @@ input[type="search"] {
 form {
     text-align: CENTER;
     margin: 0px;
-       text-align: CENTER;
+    text-align: CENTER;
     margin: 0px;
-    background: #6B1FC0;
-    padding: 11px 8px 6px;
+    background: #f7f7f7;
+    padding: 6px 8px 6px;
 }
 
 .app {
     background: white;
     margin: 8px 6px;
     border: 1px solid #ddd;
+}
+a.apkb {
+    display: block;
+    text-decoration: none;
 }
 
 .image,.info {
@@ -71,16 +78,23 @@ div#result {
     box-sizing: border-box;
     border: 5px solid #E9E8E9;
 }
+.app:hover {
+    background: #fafafa;
+}
 
 .heading {
-    background: #5000AA;
+    background: #f7f7f7;
     text-align: CENTER;
     margin-bottom: 8px;
+    padding-top: 3px;
     position: fixed;
     top: 0;
-    border-bottom: 0;
+    border-bottom: 1px solid #eee;
     right: 0;
     left: 0;
+    color: #5000AA;
+    height: 43px;
+    z-index: 100000;
 }
 .extra {
     background: #FFF;
@@ -107,9 +121,10 @@ span.close {
     cursor: pointer;
 }
 input.smt {
-    background: #f9f9f9;
+    background: #5000AA;
     padding: 5px 4px;
-    border: 1px solid #eee;
+    color: WHITE;
+    border: 1px solid #5000AA;
     width: 18%;
     cursor: pointer;
 }
@@ -122,4 +137,73 @@ span#offtxt {
     width: 80%;
     display: inline-block;
     padding: 5px 20px;
+}
+.images {
+    padding: 5px;
+    text-align: CENTER;
+    overflow: auto;
+    position: relative;
+    -webkit-overflow-scrolling: touch;
+    white-space: nowrap;
+}
+
+div#infoo {
+    padding: 12px;
+}
+
+b {
+background: #5000AA;display: inline-block;color: WHITE;margin: 4px;padding: 2px 10px;}
+.images img {
+    border: 2px solid #F2F2F0;
+    margin: 2px 6px;
+}
+.desc{word-wrap:break-word;padding:5px;font-size:0.9em;}
+.download {
+    background: #fafafa;
+    padding: 3px;
+    text-align: CENTER;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-top: 1px solid #ccc;
+}
+
+span.dll {
+    width: 98%;
+    display: block;
+    background: #5000AA;
+    color: WHITE;
+    padding: 10px 5px;
+    margin:  0 auto;
+    text-align: CENTER;
+}
+small {
+    font-size: 0.8em;
+    vertical-align: middle;
+}
+a.gob {
+    color: #5000AA;
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-size: 38px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0px 12px;
+}
+.last {
+    padding: 10px;
+    text-align: CENTER;
+    color: #888;
+}
+
+.last i {
+    display: inline-block;
+    padding: 5px 3px;
+    margin: 2px;
+    cursor: pointer;
+}
+input.smt:hover {
+    background: #45167A;
 }
