@@ -1,6 +1,6 @@
 <widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" 
 	xmlns:android = "http://schemas.android.com/apk/res/android"
-id="com.indpage.lyricsnext" version="0.9"  versionCode = "10">
+id="com.indpage.lyricsnext" version="0.9"  versionCode = "09">
   <name>LyricsNext</name>
   <description>Hindi Songs Lyrics</description>
   <author href="https://www.indpage.com" email="onbhilwara@gmail.com">Avadhesh Bhunwaliya</author>
@@ -33,12 +33,12 @@ id="com.indpage.lyricsnext" version="0.9"  versionCode = "10">
     <plugin name="cordova-plugin-fcm" />
 
 <icon src="xhd.png"/>
-<icon src="xhd.png" gap:platform="android" gap:qualifier="ldpi" />
-<icon src="xhd.png" gap:platform="android" gap:qualifier="mdpi" />
-<icon src="xhd.png" gap:platform="android" gap:qualifier="hdpi" />
-<icon src="xhd.png" gap:platform="android" gap:qualifier="xhdpi" />
-<icon src="xhd.png" gap:platform="android" gap:qualifier="xxhdpi" />
-<icon src="xhd.png" gap:platform="android" gap:qualifier="fr-xxhdpi" />
+<icon src="xhd.png" platform="android" qualifier="ldpi" />
+<icon src="xhd.png" platform="android" qualifier="mdpi" />
+<icon src="xhd.png" platform="android" qualifier="hdpi" />
+<icon src="xhd.png" platform="android" qualifier="xhdpi" />
+<icon src="xhd.png" platform="android" qualifier="xxhdpi" />
+<icon src="xhd.png" platform="android" qualifier="fr-xxhdpi" />
 <splash src="splash.png" />
 <platform name="android" />
 <config-file platform="android" parent="/manifest" mode="merge">
